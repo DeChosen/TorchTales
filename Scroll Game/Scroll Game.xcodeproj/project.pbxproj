@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A3AFA841FC389B200A9DC45 /* PauseScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3AFA831FC389B200A9DC45 /* PauseScene.swift */; };
+		2A3C7C3C1FC130A7003AF581 /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3C7C3B1FC130A7003AF581 /* Block.swift */; };
+		2A3C7C3E1FC13C11003AF581 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3C7C3D1FC13C11003AF581 /* GameScene.swift */; };
+		2A3C7C401FC13D38003AF581 /* Floor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3C7C3F1FC13D38003AF581 /* Floor.swift */; };
+		2A4ED9911FC2BD66000D6988 /* ScoreDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4ED9901FC2BD66000D6988 /* ScoreDisplay.swift */; };
+		2A4ED9971FC2E0D0000D6988 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4ED9961FC2E0D0000D6988 /* DataController.swift */; };
+		2A58FF131FBE3F090015891B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A58FF121FBE3F090015891B /* AppDelegate.swift */; };
+		2A58FF151FBE3F090015891B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A58FF141FBE3F090015891B /* ViewController.swift */; };
+		2A58FF1B1FBE3F090015891B /* Scroll_Game.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2A58FF191FBE3F090015891B /* Scroll_Game.xcdatamodeld */; };
+		2A58FF1D1FBE3F090015891B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A58FF1C1FBE3F090015891B /* Assets.xcassets */; };
+		2A58FF201FBE3F090015891B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A58FF1E1FBE3F090015891B /* LaunchScreen.storyboard */; };
+		2A58FF2B1FBE3F090015891B /* Scroll_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A58FF2A1FBE3F090015891B /* Scroll_GameTests.swift */; };
+		2A58FF361FBE3F090015891B /* Scroll_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A58FF351FBE3F090015891B /* Scroll_GameUITests.swift */; };
+		2A965A601FC262F900D84583 /* OptionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A965A5F1FC262F900D84583 /* OptionButton.swift */; };
+		2A965A641FC287DF00D84583 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A965A631FC287DF00D84583 /* GameOverScene.swift */; };
+		2A965A661FC28C5200D84583 /* ArrowKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A965A651FC28C5200D84583 /* ArrowKey.swift */; };
+		2ABCD8451FC1595000CA2CCC /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABCD8441FC1595000CA2CCC /* Player.swift */; };
+		2ABCD8491FC169EA00CA2CCC /* LoadingScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABCD8481FC169EA00CA2CCC /* LoadingScene.swift */; };
+		2ABCD84B1FC169F700CA2CCC /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABCD84A1FC169F700CA2CCC /* MainMenuScene.swift */; };
+		2ABCD84D1FC16BBF00CA2CCC /* BaseScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABCD84C1FC16BBF00CA2CCC /* BaseScene.swift */; };
+		2ABCD84F1FC16E3B00CA2CCC /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABCD84E1FC16E3B00CA2CCC /* Background.swift */; };
+		2ABCD8511FC1704E00CA2CCC /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABCD8501FC1704E00CA2CCC /* Button.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A58FF271FBE3F090015891B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A58FF071FBE3F090015891B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A58FF0E1FBE3F090015891B;
+			remoteInfo = "Scroll Game";
+		};
+		2A58FF321FBE3F090015891B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A58FF071FBE3F090015891B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A58FF0E1FBE3F090015891B;
+			remoteInfo = "Scroll Game";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A3AFA831FC389B200A9DC45 /* PauseScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PauseScene.swift; sourceTree = "<group>"; };
+		2A3C7C3B1FC130A7003AF581 /* Block.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
+		2A3C7C3D1FC13C11003AF581 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		2A3C7C3F1FC13D38003AF581 /* Floor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Floor.swift; sourceTree = "<group>"; };
+		2A4ED9901FC2BD66000D6988 /* ScoreDisplay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreDisplay.swift; sourceTree = "<group>"; };
+		2A4ED9961FC2E0D0000D6988 /* DataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		2A58FF0F1FBE3F090015891B /* Scroll Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scroll Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A58FF121FBE3F090015891B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2A58FF141FBE3F090015891B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2A58FF1A1FBE3F090015891B /* Scroll_Game.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Scroll_Game.xcdatamodel; sourceTree = "<group>"; };
+		2A58FF1C1FBE3F090015891B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A58FF1F1FBE3F090015891B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A58FF211FBE3F090015891B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A58FF261FBE3F090015891B /* Scroll GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Scroll GameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A58FF2A1FBE3F090015891B /* Scroll_GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scroll_GameTests.swift; sourceTree = "<group>"; };
+		2A58FF2C1FBE3F090015891B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A58FF311FBE3F090015891B /* Scroll GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Scroll GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A58FF351FBE3F090015891B /* Scroll_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scroll_GameUITests.swift; sourceTree = "<group>"; };
+		2A58FF371FBE3F090015891B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A965A5F1FC262F900D84583 /* OptionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionButton.swift; sourceTree = "<group>"; };
+		2A965A631FC287DF00D84583 /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		2A965A651FC28C5200D84583 /* ArrowKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrowKey.swift; sourceTree = "<group>"; };
+		2ABCD8441FC1595000CA2CCC /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		2ABCD8481FC169EA00CA2CCC /* LoadingScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingScene.swift; sourceTree = "<group>"; };
+		2ABCD84A1FC169F700CA2CCC /* MainMenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
+		2ABCD84C1FC16BBF00CA2CCC /* BaseScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseScene.swift; sourceTree = "<group>"; };
+		2ABCD84E1FC16E3B00CA2CCC /* Background.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
+		2ABCD8501FC1704E00CA2CCC /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A58FF0C1FBE3F090015891B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A58FF231FBE3F090015891B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A58FF2E1FBE3F090015891B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A58FF061FBE3F090015891B = {
+			isa = PBXGroup;
+			children = (
+				2A58FF111FBE3F090015891B /* Scroll Game */,
+				2A58FF291FBE3F090015891B /* Scroll GameTests */,
+				2A58FF341FBE3F090015891B /* Scroll GameUITests */,
+				2A58FF101FBE3F090015891B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A58FF101FBE3F090015891B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A58FF0F1FBE3F090015891B /* Scroll Game.app */,
+				2A58FF261FBE3F090015891B /* Scroll GameTests.xctest */,
+				2A58FF311FBE3F090015891B /* Scroll GameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A58FF111FBE3F090015891B /* Scroll Game */ = {
+			isa = PBXGroup;
+			children = (
+				2A58FF121FBE3F090015891B /* AppDelegate.swift */,
+				2A58FF141FBE3F090015891B /* ViewController.swift */,
+				2A3AFA831FC389B200A9DC45 /* PauseScene.swift */,
+				2A3C7C3B1FC130A7003AF581 /* Block.swift */,
+				2ABCD8481FC169EA00CA2CCC /* LoadingScene.swift */,
+				2ABCD84A1FC169F700CA2CCC /* MainMenuScene.swift */,
+				2A965A5F1FC262F900D84583 /* OptionButton.swift */,
+				2ABCD84E1FC16E3B00CA2CCC /* Background.swift */,
+				2ABCD8501FC1704E00CA2CCC /* Button.swift */,
+				2ABCD84C1FC16BBF00CA2CCC /* BaseScene.swift */,
+				2ABCD8441FC1595000CA2CCC /* Player.swift */,
+				2A3C7C3D1FC13C11003AF581 /* GameScene.swift */,
+				2A965A651FC28C5200D84583 /* ArrowKey.swift */,
+				2A965A631FC287DF00D84583 /* GameOverScene.swift */,
+				2A4ED9961FC2E0D0000D6988 /* DataController.swift */,
+				2A3C7C3F1FC13D38003AF581 /* Floor.swift */,
+				2A58FF1C1FBE3F090015891B /* Assets.xcassets */,
+				2A58FF1E1FBE3F090015891B /* LaunchScreen.storyboard */,
+				2A58FF211FBE3F090015891B /* Info.plist */,
+				2A58FF191FBE3F090015891B /* Scroll_Game.xcdatamodeld */,
+				2A4ED9901FC2BD66000D6988 /* ScoreDisplay.swift */,
+			);
+			path = "Scroll Game";
+			sourceTree = "<group>";
+		};
+		2A58FF291FBE3F090015891B /* Scroll GameTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A58FF2A1FBE3F090015891B /* Scroll_GameTests.swift */,
+				2A58FF2C1FBE3F090015891B /* Info.plist */,
+			);
+			path = "Scroll GameTests";
+			sourceTree = "<group>";
+		};
+		2A58FF341FBE3F090015891B /* Scroll GameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2A58FF351FBE3F090015891B /* Scroll_GameUITests.swift */,
+				2A58FF371FBE3F090015891B /* Info.plist */,
+			);
+			path = "Scroll GameUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A58FF0E1FBE3F090015891B /* Scroll Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A58FF3A1FBE3F090015891B /* Build configuration list for PBXNativeTarget "Scroll Game" */;
+			buildPhases = (
+				2A58FF0B1FBE3F090015891B /* Sources */,
+				2A58FF0C1FBE3F090015891B /* Frameworks */,
+				2A58FF0D1FBE3F090015891B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Scroll Game";
+			productName = "Scroll Game";
+			productReference = 2A58FF0F1FBE3F090015891B /* Scroll Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A58FF251FBE3F090015891B /* Scroll GameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A58FF3D1FBE3F090015891B /* Build configuration list for PBXNativeTarget "Scroll GameTests" */;
+			buildPhases = (
+				2A58FF221FBE3F090015891B /* Sources */,
+				2A58FF231FBE3F090015891B /* Frameworks */,
+				2A58FF241FBE3F090015891B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A58FF281FBE3F090015891B /* PBXTargetDependency */,
+			);
+			name = "Scroll GameTests";
+			productName = "Scroll GameTests";
+			productReference = 2A58FF261FBE3F090015891B /* Scroll GameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2A58FF301FBE3F090015891B /* Scroll GameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A58FF401FBE3F090015891B /* Build configuration list for PBXNativeTarget "Scroll GameUITests" */;
+			buildPhases = (
+				2A58FF2D1FBE3F090015891B /* Sources */,
+				2A58FF2E1FBE3F090015891B /* Frameworks */,
+				2A58FF2F1FBE3F090015891B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A58FF331FBE3F090015891B /* PBXTargetDependency */,
+			);
+			name = "Scroll GameUITests";
+			productName = "Scroll GameUITests";
+			productReference = 2A58FF311FBE3F090015891B /* Scroll GameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A58FF071FBE3F090015891B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Matt Lin";
+				TargetAttributes = {
+					2A58FF0E1FBE3F090015891B = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7QJ453NCWZ;
+						ProvisioningStyle = Automatic;
+					};
+					2A58FF251FBE3F090015891B = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7QJ453NCWZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2A58FF0E1FBE3F090015891B;
+					};
+					2A58FF301FBE3F090015891B = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7QJ453NCWZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2A58FF0E1FBE3F090015891B;
+					};
+				};
+			};
+			buildConfigurationList = 2A58FF0A1FBE3F090015891B /* Build configuration list for PBXProject "Scroll Game" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A58FF061FBE3F090015891B;
+			productRefGroup = 2A58FF101FBE3F090015891B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A58FF0E1FBE3F090015891B /* Scroll Game */,
+				2A58FF251FBE3F090015891B /* Scroll GameTests */,
+				2A58FF301FBE3F090015891B /* Scroll GameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A58FF0D1FBE3F090015891B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A58FF201FBE3F090015891B /* LaunchScreen.storyboard in Resources */,
+				2A58FF1D1FBE3F090015891B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A58FF241FBE3F090015891B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A58FF2F1FBE3F090015891B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A58FF0B1FBE3F090015891B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ABCD84F1FC16E3B00CA2CCC /* Background.swift in Sources */,
+				2A3C7C401FC13D38003AF581 /* Floor.swift in Sources */,
+				2ABCD8511FC1704E00CA2CCC /* Button.swift in Sources */,
+				2ABCD8491FC169EA00CA2CCC /* LoadingScene.swift in Sources */,
+				2A3C7C3E1FC13C11003AF581 /* GameScene.swift in Sources */,
+				2ABCD84B1FC169F700CA2CCC /* MainMenuScene.swift in Sources */,
+				2A58FF1B1FBE3F090015891B /* Scroll_Game.xcdatamodeld in Sources */,
+				2A4ED9971FC2E0D0000D6988 /* DataController.swift in Sources */,
+				2A965A601FC262F900D84583 /* OptionButton.swift in Sources */,
+				2A3C7C3C1FC130A7003AF581 /* Block.swift in Sources */,
+				2A965A641FC287DF00D84583 /* GameOverScene.swift in Sources */,
+				2A3AFA841FC389B200A9DC45 /* PauseScene.swift in Sources */,
+				2ABCD8451FC1595000CA2CCC /* Player.swift in Sources */,
+				2A58FF151FBE3F090015891B /* ViewController.swift in Sources */,
+				2A965A661FC28C5200D84583 /* ArrowKey.swift in Sources */,
+				2A4ED9911FC2BD66000D6988 /* ScoreDisplay.swift in Sources */,
+				2A58FF131FBE3F090015891B /* AppDelegate.swift in Sources */,
+				2ABCD84D1FC16BBF00CA2CCC /* BaseScene.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A58FF221FBE3F090015891B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A58FF2B1FBE3F090015891B /* Scroll_GameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A58FF2D1FBE3F090015891B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A58FF361FBE3F090015891B /* Scroll_GameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A58FF281FBE3F090015891B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A58FF0E1FBE3F090015891B /* Scroll Game */;
+			targetProxy = 2A58FF271FBE3F090015891B /* PBXContainerItemProxy */;
+		};
+		2A58FF331FBE3F090015891B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A58FF0E1FBE3F090015891B /* Scroll Game */;
+			targetProxy = 2A58FF321FBE3F090015891B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A58FF1E1FBE3F090015891B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A58FF1F1FBE3F090015891B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A58FF381FBE3F090015891B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2A58FF391FBE3F090015891B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A58FF3B1FBE3F090015891B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7QJ453NCWZ;
+				INFOPLIST_FILE = "Scroll Game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "a.Scroll-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2A58FF3C1FBE3F090015891B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7QJ453NCWZ;
+				INFOPLIST_FILE = "Scroll Game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "a.Scroll-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2A58FF3E1FBE3F090015891B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7QJ453NCWZ;
+				INFOPLIST_FILE = "Scroll GameTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "a.Scroll-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scroll Game.app/Scroll Game";
+			};
+			name = Debug;
+		};
+		2A58FF3F1FBE3F090015891B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7QJ453NCWZ;
+				INFOPLIST_FILE = "Scroll GameTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "a.Scroll-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scroll Game.app/Scroll Game";
+			};
+			name = Release;
+		};
+		2A58FF411FBE3F090015891B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7QJ453NCWZ;
+				INFOPLIST_FILE = "Scroll GameUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "a.Scroll-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Scroll Game";
+			};
+			name = Debug;
+		};
+		2A58FF421FBE3F090015891B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7QJ453NCWZ;
+				INFOPLIST_FILE = "Scroll GameUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "a.Scroll-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Scroll Game";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A58FF0A1FBE3F090015891B /* Build configuration list for PBXProject "Scroll Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A58FF381FBE3F090015891B /* Debug */,
+				2A58FF391FBE3F090015891B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A58FF3A1FBE3F090015891B /* Build configuration list for PBXNativeTarget "Scroll Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A58FF3B1FBE3F090015891B /* Debug */,
+				2A58FF3C1FBE3F090015891B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A58FF3D1FBE3F090015891B /* Build configuration list for PBXNativeTarget "Scroll GameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A58FF3E1FBE3F090015891B /* Debug */,
+				2A58FF3F1FBE3F090015891B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A58FF401FBE3F090015891B /* Build configuration list for PBXNativeTarget "Scroll GameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A58FF411FBE3F090015891B /* Debug */,
+				2A58FF421FBE3F090015891B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2A58FF191FBE3F090015891B /* Scroll_Game.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2A58FF1A1FBE3F090015891B /* Scroll_Game.xcdatamodel */,
+			);
+			currentVersion = 2A58FF1A1FBE3F090015891B /* Scroll_Game.xcdatamodel */;
+			path = Scroll_Game.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2A58FF071FBE3F090015891B /* Project object */;
+}
